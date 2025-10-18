@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+button{
+    background-color: #1F1F1F;
+    color: white;
+    width: 170px;
+    height: 60px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+p{
+    color: #545454;
+    line-height: 170%;
+}
+
+h1{
+    font-size: 58px;
+    font-weight: 700;
+    color: #1F1F1F ;
+    line-height: 120%;
+    width: 600px;
+    margin-top: 30px;
+    
+}
+
+.container {
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
+nav{
+    margin-top: 40px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navul ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    color: #545454;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.home{
+    color: #1F1F1F ;
+}
+
+
+.bar{
+    display: none;
+}
+.navulres{
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;   
+    height: auto;
+    
+    
+}
+.navulres ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+
+/* bannar part  */
+
+
+
+.head p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #545454;  
+    
+   
+}
+.bannarbtn{
+    margin-top: 80px;
+}
+
+.number{
+    display: flex;
+    gap: 80px;
+    margin-top: 100px;
+    
+}
+
+.number h2{
+    font-size: 60px;
+    font-weight: 400;
+    color: #545454 ;
+    line-height: 100%;
+}
+
+.number p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #545454 ;
+     
+}
+
+.bannar{
+    display: flex;
+   
+    align-items: center;
+}
+
+.img{
+    margin-top: 100px;
+    width: 767px;
+}
+
+.imgone{
+    margin-left: 350px;
+}
+
+.imgtwo{
+    margin-left: 80px;
+}
+
+/* 3rd part */
+
+.threepart{
+   display: flex;
+    gap: 60px;
+    margin-top: 150px;
+    
+}
+
+.three{
+    width: 100px;
+    height: 5px;
+    background-color: #1F1F1F;
+    margin-top: 80px;
+   
+}
+
+.our{
+    font-size: 40px;
+    font-style: 700;
+    color: #1F1F1F ;
+    line-height: 100%;
+    width: 600px;
+    
+}
+
+.part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.light{
+    display: flex;
+    gap: 40px;
+}
+
+.bell{
+    width: 72px;
+    height: 72px;
+}
+
+.inter{
+    display: flex;
+    gap: 40px;
+}
+
+.car{
+    width: 72px;
+    height: 72px;
+}
+
+.outdoor{
+    display: flex;
+    gap: 40px;
+}
+
+.flower{
+    width: 72px;
+    height: 72px;
+}
+
+/* 4th part */
+
+.fourpart{
+    margin-top: 150px;
+    display: flex;
+    gap: 120px;
+}
+.livingone{
+      padding-bottom: 5px;
+      border-bottom: 1px solid #DADADA;
+}
+.living{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+    
+}
+
+.Commercial{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+     border-bottom: 1px solid #DADADA;
+    padding-bottom: 5px;
+}
+
+.plus{
+    width: 24px;
+    height: 24px;
+}
+
+
+.width{
+    width: 700px;
+    height: 2px;
+    background-color: #DADADA;
+    margin-top: 80px;
+}
+
+.Learnbtn{
+    margin-top: 60px;
+}
+
+/* 5th part */
+
+.fivepart{
+    display: flex;
+    gap: 60px;
+   
+}
+.imgone{
+    margin-top: 160px;
+}
+.five h1{
+    width: 700px;
+    margin-top: 150px;
+}
+
+.one{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+.rocket{
+    width: 72px;
+    height: 72px;
+    gap: 40px;
+}
+
+/* 6th part */
+
+.working{
+    background-color: #1F1F1F;
+    width: 500px;
+    height: 450px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+.new{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.man{
+    width: 72px;
+    height: 72px;
+}
+.with{
+    color: white;
+    margin-top: 80px;
+}
+.sop{
+    color: white;
+}
+.usa{
+    color: #929292;
+}
+
+.pic{
+    display: flex;
+    gap: 100px;
+    margin-left: 270px;
+    margin-top: -500px;
+}

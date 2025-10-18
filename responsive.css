@@ -1,0 +1,110 @@
+/* Extra Small (Phones): \(320px-480px\) Small (Tablets): \(768px\) Medium (Laptops): \(1024px\) Large (Desktops): \(1366px\) Extra Large (Monitors): \(1920px\) and above  */
+
+
+/* Small Devices (Tablets, 768px and up) */
+@media  (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 0 16px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    h1{
+        font-size: 28px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .navul, .navulres {
+        display: none; /* hide full nav on small screens */
+    }
+    .butt{
+        display: none; /* desktop button hidden on small screens */
+    }
+    .buttres {
+        display: none; /* toggled by JS when menu clicked */
+        margin-top: 50px;
+    }
+    .bar{
+        display: block; /* hamburger icon */
+        font-size: 24px;
+        color: #1F1F1F;
+        cursor: pointer;
+    }
+    .logo{
+        width: 120px;
+    }
+
+    /* bannar part  */
+
+    .bannar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    }
+
+    
+    .number p{
+        font-weight: 400;
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .number{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         gap: 12px;
+         align-items: center;
+    }
+
+    .head{
+        padding-top: 40px;
+    }
+    .head p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+    /* Images: keep responsive */
+    
+    .imgone{
+        margin-left: 0;
+    }
+    .imgtwo{
+        margin-left: 0;
+        ;
+    }
+.img{
+   width: 100%; /* Changed from 50% to 100% */
+}
+
+/* Images responsive fixes */
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        
+    }
+    
+    .img {
+        width: 100%; /* Changed from 50% to 100% */
+        margin-top: -80px;
+    }
+    
+    .imgone, .imgtwo {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    /* If you have specific images that need different sizing */
+    .bannar img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
