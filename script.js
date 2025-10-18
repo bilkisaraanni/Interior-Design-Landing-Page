@@ -48,3 +48,24 @@ let intervelTwo = setInterval(()=>{
       clearInterval(intervelTwo)
      }
 },100);
+
+//  4th part
+
+let living = document.querySelector(".pera");
+let state = false;
+const Click = ()=>{
+   
+   if(!state){
+      living.style.display = "block";
+      state = true;
+   }else{
+      living.style.display = "none";
+      state = false;
+   }
+}
+
+
+// function one(a,b){
+//    console.log(a*b)
+// }
+// one(7,5)
