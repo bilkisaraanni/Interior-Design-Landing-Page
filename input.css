@@ -209,10 +209,7 @@ nav{
     display: flex;
     gap: 120px;
 }
-.livingone{
-      padding-bottom: 5px;
-      border-bottom: 1px solid #DADADA;
-}
+
 .living{
     display: flex;
     justify-content: space-between;
@@ -221,6 +218,9 @@ nav{
 }
 
 .pera{
+    display: none;
+}
+.peraone{
     display: none;
 }
 
@@ -253,7 +253,7 @@ nav{
 
 .fivepart{
     display: flex;
-    gap: 60px;
+ 
    
 }
 .imgone{
@@ -279,8 +279,8 @@ nav{
 
 .working{
     background-color: #1F1F1F;
-    width: 500px;
-    height: 450px;
+    width: 450px;
+    height: 500px;
     padding-top: 50px;
     padding-left: 80px;
 }
@@ -310,4 +310,94 @@ nav{
     gap: 100px;
     margin-left: 270px;
     margin-top: -500px;
+}
+
+.arrow{
+    display: flex;
+    gap: 40px;
+    margin-top: -30px;
+    color: #464646;
+}
+
+/* 7th part  */
+
+.sevenpart{
+    margin-top: 100px;
+}
+.Ohead{
+    width: 840px;
+    align-items: center;
+    margin: 0 auto;
+}
+.span{
+    display: block;
+    margin-left: 120px;
+}
+.spanone{
+    display: block;
+    margin-left: 120px;
+}
+.prag{
+    width: 770px;
+    font-size: 24px;
+    font-style: medium;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 40px;
+     
+}
+
+.input{
+    position: relative;
+    width: 970px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 350px;
+
+    
+}
+.mailicon{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+.enter{
+     position: absolute;
+    top: 30px;
+    left: 55px;
+    border: none;
+    width: 500px;
+    font-size: medium;
+}
+.subbut{
+    position: absolute;
+    left: 770px;
+}
+
+/* 8th part  */
+footer{
+    background-color: black;
+    
+    height: 640px;
+}
+.footer{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+    align-items: center;
+    padding-top: 150px;
+    
+}
+.all{
+    color: #D1D1D1;
+}
+.oour{
+    color: white;
+}
+.social{
+    display: flex;
+    gap: 20px;
 }

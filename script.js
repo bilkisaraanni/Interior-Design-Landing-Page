@@ -64,6 +64,18 @@ const Click = ()=>{
    }
 }
 
+let commercial = document.querySelector(".peraone");
+let common = false;
+const onClick = ()=>{
+   if(!common){
+      commercial.style.display = "block";
+      common = true;
+   }else{
+      commercial.style.display = "none";
+      common = false;
+   }
+}
+
 
 // function one(a,b){
 //    console.log(a*b)
